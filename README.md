@@ -166,6 +166,15 @@ Hard resetting via RTS pin...
 7. The board will boot and show the Meshtastic logo.
 8. Please post a comment on our chat so we know if these instructions worked for you ;-). If you find bugs/have-questions post there also - we will be rapidly iterating over the next few weeks.
 
+# Bluetooth connection to boards without screen
+
+1. Connect to your board via USB.
+2. Establish a serial connection. You can use on for example Putty (Speed 921600). It is also possible to use Android with an USB OTG cable and for example the app "Serial USB Terminal".
+3. The device will send the key ("onPassKeyNotify") when a Bluetooth connection is requested.
+4. Enter this key into the Meshtastic Android App.
+5. If the connechtion faild the next "onPassKeyNotify" will be newly generated.
+ 
+
 # Meshtastic Android app
 
 The companion (optional) Meshtastic Android app is [here](https://github.com/meshtastic/Meshtastic-Android). You can also download it on Google Play.
