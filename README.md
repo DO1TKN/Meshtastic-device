@@ -89,7 +89,7 @@ MAC: 24:6f:28:b5:36:71
 Hard resetting via RTS pin...
 ```
 
-5. cd into the directory where the release zip file was expanded.
+5. cd into the directory where the [release](https://github.com/meshtastic/Meshtastic-esp32/releases) zip file was expanded.
 6. Install the correct firmware for your board with `device-install.sh firmware-_board_-_country_.bin`.
    - Example: `./device-install.sh firmware-HELTEC-US-0.0.3.bin`.
 7. To update run `device-update.sh firmware-_board_-_country_.bin`
