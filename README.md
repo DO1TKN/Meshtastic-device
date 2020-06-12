@@ -171,7 +171,7 @@ Hard resetting via RTS pin...
 1. Connect to your board via USB.
 2. Establish a serial connection. You can use on for example Putty (Speed 921600). It is also possible to use Android with an USB OTG cable and for example the app "Serial USB Terminal".
 3. The device will send the key ("onPassKeyNotify") when a Bluetooth connection is requested.
-4. Enter this key into the Meshtastic Android App.
+4. Enter this key into the Meshtastic Android app.
 5. If the connechtion faild the next "onPassKeyNotify" will be newly generated.
  
 
